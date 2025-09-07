@@ -8,10 +8,10 @@ function Footer() {
         {/* Brand Section */}
         <div className="flex flex-col space-y-3">
           <h2 className="text-3xl font-bold text-white">
-            🌐 <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">MyPortfolio</span>
+             <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">MyPortfolio</span>
           </h2>
           <p className="text-gray-400 text-sm md:text-base">
-            Building modern web apps with MERN stack & C++ DSA 🚀
+            Building modern web apps with MERN stack & C++ DSA 
           </p>
         </div>
 

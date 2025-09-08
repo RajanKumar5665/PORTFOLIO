@@ -9,7 +9,7 @@ import { FaReact } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
-import pic from "../assets/profile_photo.jpg"; // ✅ Keep image here (this works)
+import pic from "../assets/profile_photo.jpg"; 
 
 const Home = () => {
   return (
@@ -55,7 +55,7 @@ const Home = () => {
 
             {/* Resume Button */}
             <motion.a
-              href="/resume.pdf" // ✅ Directly from public folder
+              href="/resume.pdf" 
               download="Rajan_Resume.pdf"
               className="inline-block px-6 py-3 bg-green-600 text-white font-medium rounded-lg shadow-md hover:bg-green-700 transition duration-300"
               whileHover={{ scale: 1.05 }}
@@ -117,7 +117,7 @@ const Home = () => {
             </div>
           </motion.div>
 
-          {/* Right Section (Profile Image) */}
+          {/* Right Section */}
           <motion.div
             className="md:w-1/2 flex justify-center order-1"
             initial={{ opacity: 0, x: 50 }}

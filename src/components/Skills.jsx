@@ -26,7 +26,7 @@ const skills = [
 // Timeline Data
 const experiences = [
   {
-    year: "2023",
+    year: "2022",
     title: "Started B.Tech CSE",
     description: "Began my Computer Science journey at MAKAUT University.",
     icon: <FaGraduationCap className="text-blue-600 text-3xl" />,
@@ -45,7 +45,7 @@ const experiences = [
     icon: <FaProjectDiagram className="text-purple-600 text-3xl" />,
   },
   {
-    year: "2026",
+    year: "2025",
     title: "Internship / Full-time Role",
     description:
       "Aspiring to join as a Full Stack Developer and contribute to impactful projects.",
@@ -67,7 +67,7 @@ const Experience = () => {
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-        ⚡ My Key Skills
+        My Key Skills
       </motion.h3>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center mb-20">
@@ -94,7 +94,7 @@ const Experience = () => {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        🚀 My Journey
+        My Journey
       </motion.h2>
 
       <div className="relative border-l-4 border-green-500 ml-6">

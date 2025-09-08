@@ -25,22 +25,22 @@ function Contact() {
       const res = await axios.post("https://api.web3forms.com/submit", formData);
 
       if (res.data.success) {
-        setPopupMessage("✅ Your message has been sent successfully!");
+        setPopupMessage("Your message has been sent successfully!");
         reset();
       } else {
-        setPopupMessage("❌ Failed! " + res.data.message);
+        setPopupMessage("Failed! " + res.data.message);
       }
       setIsOpen(true);
     } catch (error) {
       console.error(error);
-      setPopupMessage("❌ Something went wrong, please try again!");
+      setPopupMessage("Something went wrong, please try again!");
       setIsOpen(true);
     }
   };
 
   return (
     <div className="max-w-screen-lg mx-auto px-4 md:px-20 my-20">
-      <h1 className="text-5xl font-bold text-center mb-3 text-gray-800">📩 Contact Me</h1>
+      <h1 className="text-5xl font-bold text-center mb-3 text-gray-800">Contact Me</h1>
       <p className="text-gray-600 text-center mb-12">
         I’d love to hear from you! Fill out the form below and I’ll get back to you.
       </p>

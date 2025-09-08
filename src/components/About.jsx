@@ -22,7 +22,7 @@ function About() {
         {/* Education */}
         <div className="bg-gray-100 shadow-md p-6 rounded-lg space-y-2">
           <h2 className="text-2xl font-semibold text-green-600">
-            🎓 Education & Training
+            Education & Training
           </h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>
@@ -42,7 +42,7 @@ function About() {
         {/* Skills */}
         <div className="bg-gray-100 shadow-md p-6 rounded-lg space-y-2">
           <h2 className="text-2xl font-semibold text-green-600">
-            💻 Skills & Expertise
+            Skills & Expertise
           </h2>
           <p className="text-gray-700 leading-relaxed">
             Proficient in <strong>C++, HTML, CSS, JavaScript, React.js, Node.js,
@@ -56,7 +56,7 @@ function About() {
         {/* Experience */}
         <div className="bg-gray-100 shadow-md p-6 rounded-lg space-y-2">
           <h2 className="text-2xl font-semibold text-green-600">
-            🏢 Professional Experience
+            Professional Experience
           </h2>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li>
@@ -78,7 +78,7 @@ function About() {
         {/* Achievements */}
         <div className="bg-gray-100 shadow-md p-6 rounded-lg space-y-2">
           <h2 className="text-2xl font-semibold text-green-600">
-            🏆 Achievements & Awards
+             Achievements & Awards
           </h2>
           <ul className="list-disc list-inside text-gray-700">
             <li>
@@ -95,7 +95,7 @@ function About() {
         {/* Mission */}
         <div className="bg-gray-100 shadow-md p-6 rounded-lg space-y-2">
           <h2 className="text-2xl font-semibold text-green-600">
-            🚀 Mission Statement
+             Mission Statement
           </h2>
           <p className="text-gray-700 leading-relaxed">
             My mission is to leverage my skills and creativity to deliver
